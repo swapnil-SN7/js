@@ -1,0 +1,26 @@
+in javascript datatypes are basically divided into 2 types one is prmitive and another is non primitive 
+they are divided on basis of the vo kis tarah se store hote hai and hum use kis tarah se access kar sakte hai is basis pe 
+#primitive -7 call by value-> String ,Number ,Boolean ,null,undefined,Symbol(unique banane ke liye),BigInt
+#reference or non primitive -> Array,Object ,Function
+
+*** javascript is the dynamically typed language which means that data types of variable are determined by the value they hold at runtime and can chaged throughout the program 
+const isLoggeIn = false
+let userEmail;// undefined
+//symbol in javascript
+const sym1= Symbol('sym')==  ye dono dikhane me bhalehi same value ke lag rahe ho byt actually values same nahi hai
+const sym2 = Sybol('sym')==
+
+const bigNumber =788959257905297020952798052709590285798209n
+
+
+const heros =["shaktimman", "nagraj","doga" ]
+let myObj = {
+    name: "Hitesh"
+    age:22
+}
+
+const myfunction = function(){
+    console.log("Hello world")
+}
+
+console.log(myfunction)
