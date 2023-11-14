@@ -17,4 +17,4 @@ let isLoggedin = false
 
 console.log(typeof "hitesh")
 console.log(typeof null)
-console.log(typeof )
+console.log(typeof undefined)
