@@ -24,3 +24,29 @@ const myfunction = function(){
 }
 
 console.log(myfunction)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+memories of the type Stack(primitive-> reference) ,Heap(non-primitive->call by value)
+//let us understand it in the depth
+
+
+let num1 =4
+let num2= num1
+let num2=9
+console.log(num1)
+console.log(num2)
+// yaha pe num2 ki value tumhari 9 hogi and num1 ki value still 4 hi hogi ->referance that is copy of num pass hoti hai
+let user ={
+    email: "usermail@gmail.com"
+    upi : "user@ybl"
+
+}
+
+let user2 = user
+user2.email ="swapnil@SN7gmail.com"
+console.log(user.email)
+console.log(user2.email)
+
+// is case mai dono ka email change ho chucka hoga reason is simple ye heap ko use karata hai
